@@ -1,0 +1,36 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# .env file for storing sensitive credentials
+credentials.env
+
+# ChromeDriver binary (if locally stored)
+chromedriver*
+
+# Python egg files
+*.egg
+*.egg-info
+
+# Pipenv files
+Pipfile.lock
+
+# Other system-specific files (Mac, Windows, etc.)
+.DS_Store
+Thumbs.db
